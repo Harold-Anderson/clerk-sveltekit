@@ -1,5 +1,5 @@
 <script type="ts">
-	import SignIn from '$lib/client/SignIn.svelte'
+	import SignIn from 'clerk-sveltekit';
 </script>
 
 <div class="flex items-center justify-center mt-16">

@@ -1,6 +1,5 @@
 <script lang="ts">
-	import SignUp from '$lib/client/SignUp.svelte'
-</script>
+	import SignUp from 'clerk-sveltekit';
 
 <div class="flex items-center justify-center mt-16">
 	<SignUp />

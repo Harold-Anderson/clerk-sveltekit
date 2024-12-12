@@ -1,5 +1,5 @@
 <script lang="ts">
-	import UserProfile from '$lib/client/UserProfile.svelte'
+	import UserProfile from "clerk-sveltekit"
 	export let data
 </script>
 

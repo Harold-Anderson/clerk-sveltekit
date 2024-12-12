@@ -1,5 +1,5 @@
 <script lang="ts">
-	import SignedIn from '$lib/client/SignedIn.svelte'
+	import SignedIn from 'clerk-sveltekit';
 	import SignedOut from '$lib/client/SignedOut.svelte'
 	import SignInButton from '$lib/client/SignInButton.svelte'
 	import SignUpButton from '$lib/client/SignUpButton.svelte'

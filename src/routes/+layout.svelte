@@ -1,13 +1,13 @@
 <script lang="ts">
 	import '../app.css'
-	import OrganizationSwitcher from '$lib/client/OrganizationSwitcher.svelte'
-	import UserButton from '$lib/client/UserButton.svelte'
-	import SignedIn from '$lib/client/SignedIn.svelte'
-	import SignedOut from '$lib/client/SignedOut.svelte'
+	import  OrganizationSwitcher  from "clerk-sveltekit";
+	import  UserButton   from "clerk-sveltekit";
+	import SignedIn from 'clerk-sveltekit'
+	import SignedOut from 'clerk-sveltekit'
 	import Wrap from '../internal/Wrap.svelte'
 	import { page } from '$app/stores'
 	import { onMount } from 'svelte'
-	import ClerkProvider from '$lib/client/ClerkProvider.svelte'
+	import { ClerkProvider } from 'clerk-sveltekit'
 	import { PUBLIC_CLERK_PUBLISHABLE_KEY } from '$env/static/public'
 	import type { LayoutData } from './$types';
 
